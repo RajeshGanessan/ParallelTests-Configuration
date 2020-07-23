@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InEDGE Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testng.childTest">
+        <methods>
+          <include name="testCase2"/>
+          <include name="beforeMethod"/>
+          <include name="testCase3"/>
+          <include name="testCase1"/>
+          <include name="beforeChildMethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- testng.childTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [InEDGE Test suite] -->
